@@ -46,6 +46,8 @@
     <Compile Include="ConstructorMethodology\Endereco.cs" />
     <Compile Include="ConstructorMethodology\EnderecoPlus.cs" />
     <Compile Include="ConstructorMethodology\IObjetoEndereco.cs" />
+    <Compile Include="GetterSetterMothodology\Empresa.cs" />
+    <Compile Include="GetterSetterMothodology\IObjetoEndereco.cs" />
     <Compile Include="UsedMethodology\Empresa.cs" />
     <Compile Include="UsedMethodology\Endereco.cs" />
     <Compile Include="Program.cs" />
@@ -54,6 +56,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="InterfaceMethodology\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
